@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - OBShapedButton (1.1.0)
+
+DEPENDENCIES:
+  - Charts
+  - OBShapedButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Charts
+    - OBShapedButton
+
+SPEC CHECKSUMS:
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  OBShapedButton: 90c414c04454ca25f067deaa91393c221b8721cf
+
+PODFILE CHECKSUM: 0ea599b6e3d81164ce57a7af62679e0deb0f0125
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105CDDF020ED3B50008A51B4 /* Start button.png in Resources */ = {isa = PBXBuildFile; fileRef = 105CDDEF20ED3B50008A51B4 /* Start button.png */; };
+		105CDDF420ED3DAF008A51B4 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 105CDDF320ED3DAE008A51B4 /* Background.png */; };
+		10990ACD20ED38AC00346DDC /* Butterworth filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10990AC820ED38AC00346DDC /* Butterworth filter.swift */; };
+		10990ACE20ED38AC00346DDC /* Peak Detection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10990AC920ED38AC00346DDC /* Peak Detection.swift */; };
+		10990ACF20ED38AC00346DDC /* HR algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10990ACA20ED38AC00346DDC /* HR algorithm.swift */; };
+		10990AD020ED38AC00346DDC /* RGB to Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10990ACB20ED38AC00346DDC /* RGB to Hue.swift */; };
+		10990AD120ED38AC00346DDC /* Average_Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10990ACC20ED38AC00346DDC /* Average_Colour.swift */; };
+		10E1286F20ED3707001692E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E1286E20ED3707001692E1 /* AppDelegate.swift */; };
+		10E1287120ED3707001692E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E1287020ED3707001692E1 /* ViewController.swift */; };
+		10E1287420ED3707001692E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E1287220ED3707001692E1 /* Main.storyboard */; };
+		10E1287720ED3707001692E1 /* Heart_rate_measurer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10E1287520ED3707001692E1 /* Heart_rate_measurer.xcdatamodeld */; };
+		10E1287920ED3707001692E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E1287820ED3707001692E1 /* Assets.xcassets */; };
+		10E1287C20ED3707001692E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E1287A20ED3707001692E1 /* LaunchScreen.storyboard */; };
+		395CAD2A8F061B8833B95595 /* Pods_Heart_rate_measurer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7865B8118CF5779A20754BC /* Pods_Heart_rate_measurer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		105CDDEF20ED3B50008A51B4 /* Start button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Start button.png"; path = "../../../../Downloads/Start button.png"; sourceTree = "<group>"; };
+		105CDDF320ED3DAE008A51B4 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = ../../../../Downloads/Background.png; sourceTree = "<group>"; };
+		10990AC820ED38AC00346DDC /* Butterworth filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Butterworth filter.swift"; path = "../Camera and graph/Butterworth filter.swift"; sourceTree = "<group>"; };
+		10990AC920ED38AC00346DDC /* Peak Detection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Peak Detection.swift"; path = "../Camera and graph/Peak Detection.swift"; sourceTree = "<group>"; };
+		10990ACA20ED38AC00346DDC /* HR algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HR algorithm.swift"; path = "../Camera and graph/HR algorithm.swift"; sourceTree = "<group>"; };
+		10990ACB20ED38AC00346DDC /* RGB to Hue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RGB to Hue.swift"; path = "../Camera and graph/RGB to Hue.swift"; sourceTree = "<group>"; };
+		10990ACC20ED38AC00346DDC /* Average_Colour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Average_Colour.swift; path = "../Camera and graph/Average_Colour.swift"; sourceTree = "<group>"; };
+		10E1286B20ED3707001692E1 /* Heart rate measurer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart rate measurer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E1286E20ED3707001692E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10E1287020ED3707001692E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10E1287320ED3707001692E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10E1287620ED3707001692E1 /* Heart_rate_measurer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Heart_rate_measurer.xcdatamodel; sourceTree = "<group>"; };
+		10E1287820ED3707001692E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10E1287B20ED3707001692E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10E1287D20ED3708001692E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862A2983672A600B8D16CC05 /* Pods-Heart rate measurer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heart rate measurer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Heart rate measurer/Pods-Heart rate measurer.release.xcconfig"; sourceTree = "<group>"; };
+		A7865B8118CF5779A20754BC /* Pods_Heart_rate_measurer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heart_rate_measurer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BE64A20A65F49DA5F6EDFC /* Pods-Heart rate measurer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heart rate measurer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Heart rate measurer/Pods-Heart rate measurer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E1286820ED3707001692E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395CAD2A8F061B8833B95595 /* Pods_Heart_rate_measurer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E1286220ED3707001692E1 = {
+			isa = PBXGroup;
+			children = (
+				10E1286D20ED3707001692E1 /* Heart rate measurer */,
+				10E1286C20ED3707001692E1 /* Products */,
+				10990AC820ED38AC00346DDC /* Butterworth filter.swift */,
+				10990AC920ED38AC00346DDC /* Peak Detection.swift */,
+				10990ACA20ED38AC00346DDC /* HR algorithm.swift */,
+				10990ACC20ED38AC00346DDC /* Average_Colour.swift */,
+				10990ACB20ED38AC00346DDC /* RGB to Hue.swift */,
+				526C30AE25DD4AEBB9453EBA /* Pods */,
+				98DA1A6A99D665D2408E5CF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10E1286C20ED3707001692E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E1286B20ED3707001692E1 /* Heart rate measurer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E1286D20ED3707001692E1 /* Heart rate measurer */ = {
+			isa = PBXGroup;
+			children = (
+				10E1286E20ED3707001692E1 /* AppDelegate.swift */,
+				10E1287020ED3707001692E1 /* ViewController.swift */,
+				10E1287220ED3707001692E1 /* Main.storyboard */,
+				10E1287820ED3707001692E1 /* Assets.xcassets */,
+				10E1287A20ED3707001692E1 /* LaunchScreen.storyboard */,
+				10E1287D20ED3708001692E1 /* Info.plist */,
+				10E1287520ED3707001692E1 /* Heart_rate_measurer.xcdatamodeld */,
+				105CDDF320ED3DAE008A51B4 /* Background.png */,
+				105CDDEF20ED3B50008A51B4 /* Start button.png */,
+			);
+			path = "Heart rate measurer";
+			sourceTree = "<group>";
+		};
+		526C30AE25DD4AEBB9453EBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6BE64A20A65F49DA5F6EDFC /* Pods-Heart rate measurer.debug.xcconfig */,
+				862A2983672A600B8D16CC05 /* Pods-Heart rate measurer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98DA1A6A99D665D2408E5CF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7865B8118CF5779A20754BC /* Pods_Heart_rate_measurer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E1286A20ED3707001692E1 /* Heart rate measurer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E1288020ED3708001692E1 /* Build configuration list for PBXNativeTarget "Heart rate measurer" */;
+			buildPhases = (
+				94184B4866BDE432CF0B8B48 /* [CP] Check Pods Manifest.lock */,
+				10E1286720ED3707001692E1 /* Sources */,
+				10E1286820ED3707001692E1 /* Frameworks */,
+				10E1286920ED3707001692E1 /* Resources */,
+				7C4FA2DFE059FFD709C98CEA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heart rate measurer";
+			productName = "Heart rate measurer";
+			productReference = 10E1286B20ED3707001692E1 /* Heart rate measurer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E1286320ED3707001692E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ghifax Games";
+				TargetAttributes = {
+					10E1286A20ED3707001692E1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 10E1286620ED3707001692E1 /* Build configuration list for PBXProject "Heart rate measurer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E1286220ED3707001692E1;
+			productRefGroup = 10E1286C20ED3707001692E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E1286A20ED3707001692E1 /* Heart rate measurer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E1286920ED3707001692E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E1287C20ED3707001692E1 /* LaunchScreen.storyboard in Resources */,
+				105CDDF020ED3B50008A51B4 /* Start button.png in Resources */,
+				105CDDF420ED3DAF008A51B4 /* Background.png in Resources */,
+				10E1287920ED3707001692E1 /* Assets.xcassets in Resources */,
+				10E1287420ED3707001692E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C4FA2DFE059FFD709C98CEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Heart rate measurer/Pods-Heart rate measurer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/OBShapedButton/OBShapedButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OBShapedButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Heart rate measurer/Pods-Heart rate measurer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94184B4866BDE432CF0B8B48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heart rate measurer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E1286720ED3707001692E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10990ACF20ED38AC00346DDC /* HR algorithm.swift in Sources */,
+				10990AD120ED38AC00346DDC /* Average_Colour.swift in Sources */,
+				10E1287120ED3707001692E1 /* ViewController.swift in Sources */,
+				10E1286F20ED3707001692E1 /* AppDelegate.swift in Sources */,
+				10990AD020ED38AC00346DDC /* RGB to Hue.swift in Sources */,
+				10E1287720ED3707001692E1 /* Heart_rate_measurer.xcdatamodeld in Sources */,
+				10990ACE20ED38AC00346DDC /* Peak Detection.swift in Sources */,
+				10990ACD20ED38AC00346DDC /* Butterworth filter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10E1287220ED3707001692E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E1287320ED3707001692E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10E1287A20ED3707001692E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E1287B20ED3707001692E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10E1287E20ED3708001692E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10E1287F20ED3708001692E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E1288120ED3708001692E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6BE64A20A65F49DA5F6EDFC /* Pods-Heart rate measurer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8MHSZC6PF;
+				INFOPLIST_FILE = "Heart rate measurer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GhifaxGames.Heart-rate-measurer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E1288220ED3708001692E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862A2983672A600B8D16CC05 /* Pods-Heart rate measurer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8MHSZC6PF;
+				INFOPLIST_FILE = "Heart rate measurer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GhifaxGames.Heart-rate-measurer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E1286620ED3707001692E1 /* Build configuration list for PBXProject "Heart rate measurer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E1287E20ED3708001692E1 /* Debug */,
+				10E1287F20ED3708001692E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E1288020ED3708001692E1 /* Build configuration list for PBXNativeTarget "Heart rate measurer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E1288120ED3708001692E1 /* Debug */,
+				10E1288220ED3708001692E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10E1287520ED3707001692E1 /* Heart_rate_measurer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10E1287620ED3707001692E1 /* Heart_rate_measurer.xcdatamodel */,
+			);
+			currentVersion = 10E1287620ED3707001692E1 /* Heart_rate_measurer.xcdatamodel */;
+			path = Heart_rate_measurer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10E1286320ED3707001692E1 /* Project object */;
+}

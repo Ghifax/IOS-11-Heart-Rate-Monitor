@@ -1,0 +1,6 @@
+framework module Pods_Heart_rate_measurer {
+  umbrella header "Pods-Heart rate measurer-umbrella.h"
+
+  export *
+  module * { export * }
+}
